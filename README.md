@@ -1,6 +1,7 @@
 # 31일차 부터 한주동안 원동식 교수님의 강의
 dongshikw@gmail.com<br>
-[day1_lecture.pdf](https://github.com/user-attachments/files/21569753/day1_lecture.pdf)
+[day1_lecture.pdf](https://github.com/user-attachments/files/21569753/day1_lecture.pdf)<br>
+[파이썬으로 만드는 칼만 필터 심화자료 깃허브](https://github.com/tbmoon/kalman_filter)
 
 ## 자율주행을 위한 데이터 처리 (실습은 코랩에서)
 1. 칼만필터와 데이터추적기법
