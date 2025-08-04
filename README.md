@@ -1,5 +1,6 @@
 # 31일차 부터 한주동안 원동식 교수님의 강의
-dongshikw@gmail.com
+dongshikw@gmail.com<br>
+[day1_lecture.pdf](https://github.com/user-attachments/files/21569753/day1_lecture.pdf)
 
 ## 자율주행을 위한 데이터 처리 (실습은 코랩에서)
 1. 칼만필터와 데이터추적기법
