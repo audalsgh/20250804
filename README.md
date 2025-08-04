@@ -52,5 +52,6 @@ ex) 터널 진입 직전의 속도와 방향으로 차량 위치를 계속 추�
 -> IMU로 추정하고, GPS로 보정하는 느낌
 
 상황에 따라 동적으로 가중치 조절(예: GPS 수신 상태에 따라 w_gps를 낮추기)<br>
-<img width="570" height="443" alt="image" src="https://github.com/user-attachments/assets/1990962b-e26c-4167-b9d0-9975472be0e4" />
+
+<img width="570" height="443" alt="image" src="https://github.com/user-attachments/assets/1990962b-e26c-4167-b9d0-9975472be0e4" /><br>
 ex) GPS 가중치를 0.9로 높게 설정하니, GPS값과 거의 유사하게 융합되었다.
