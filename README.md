@@ -51,6 +51,15 @@ ex) 터널 진입 직전의 속도와 방향으로 차량 위치를 계속 추�
 - 갱신 : 가끔씩 들어오지만 정확한 좌표인 GPS 신호로 갱신하여, IMU 센서의 오차를 지워냄.
 -> IMU로 추정하고, GPS로 보정하는 느낌
 
+3. 가중 평균 융합, gps와 imu모두 가중치를 곱하여 합친다.
+```python
+fused_positions = [
+    w_gps * gps_positions[i] + w_imu * imu_positions[i]
+    for i in range(10)
+]
+```
+파이썬의 리스트 컴프리헨션(List Comprehension) 문법으로, 10개짜리 리스트를 생성했다.
+
 상황에 따라 동적으로 가중치 조절(예: GPS 수신 상태에 따라 w_gps를 낮추기)<br>
 
 <img width="570" height="443" alt="image" src="https://github.com/user-attachments/assets/1990962b-e26c-4167-b9d0-9975472be0e4" /><br>
